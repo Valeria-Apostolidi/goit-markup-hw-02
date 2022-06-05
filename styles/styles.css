@@ -1,8 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
   font-size: 14px;
   letter-spacing: 0.03em;
+  background-color: #ffffff;
 }
 :root {
   --add-color: #2f303a;
@@ -15,7 +16,7 @@ body {
 }
 /* ----------------------HEADER---------------------- */
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -100,9 +101,9 @@ body {
 
 .strength-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   align: Left;
-  vertical-align: Top;
   text-transform: uppercase;
 }
 
@@ -119,6 +120,10 @@ body {
 }
 
 /*-------------------------TEAM-------------*/
+
+.team {
+  background-color: var(--team-bgr-color);
+}
 
 .team-list {
   background-color: #ffffff;
@@ -168,7 +173,8 @@ body {
 
 .options-btn:hover,
 .options-btn:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--add-font-color);
 }
 
 .projects-heading {
