@@ -174,7 +174,7 @@ body {
 .options-btn:hover,
 .options-btn:focus {
   background-color: var(--accent-color);
-  color: tomato;
+  color: var(--add-font-color);
 }
 
 .projects-heading {
